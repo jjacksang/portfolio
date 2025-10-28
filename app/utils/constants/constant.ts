@@ -3,18 +3,18 @@ export const EMAIL = 'jswoo1995@gmail.com';
 export const socialLink = [
   {
     id: 1,
-    datatooltip: 'Github link',
-    tooltiptype: 'bottom',
+    dataTooltip: 'Github link',
+    toolTipType: 'bottom',
     href: 'https://github.com/jjacksang',
-    arialabel: 'Github',
+    ariaLabel: 'github',
     target: '_blank',
   },
   {
     id: 2,
-    datatooltip: 'Velog link',
-    tooltiptype: 'bottom',
+    dataTooltip: 'velog link',
+    toolTipType: 'bottom',
     href: 'https://velog.io/@jjacksang/posts',
-    arialabel: 'Velog',
+    ariaLabel: 'velog',
     target: '_blank',
   },
 ];
