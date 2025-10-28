@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 
 export const QuickButtonWrap = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="fixed right-5 bottom-5 z-[2] flex flex-col items-center justify-center gap-3">
+    <div className="fixed right-5 bottom-5 z-[2] flex flex-col items-center justify-center gap-4 rounded-lg border border-amber-50 p-3.5">
       {children}
     </div>
   );
@@ -13,7 +13,7 @@ export default function QuickButton() {
   return (
     <QuickButtonWrap>
       {quickData.map((item) => (
-        <div key={item.id} className="">
+        <div key={item.id} className="cursor-pointer">
           {item.icon}
         </div>
       ))}
