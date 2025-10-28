@@ -14,8 +14,7 @@ export default function QuickButton() {
     <QuickButtonWrap>
       {quickData.map((item) => (
         <div key={item.id} className="">
-          <p>{item.datatooltip}</p>
-          <p>{item.tooltiptype}</p>
+          {item.icon}
         </div>
       ))}
     </QuickButtonWrap>

@@ -1,22 +1,25 @@
+import IcTopArrow from '@/app/assets/IcTopArrow';
 import { EMAIL } from './constant';
+import IcMail from '@/app/assets/IcMail';
+import IcFeedback from '@/app/assets/IcFeedback';
 
 export const quickData = [
   {
     id: 1,
-    datatooltip: EMAIL,
-    tooltiptype: 'left',
-    icon: 'icons',
+    dataTooltip: EMAIL,
+    toolTipType: 'left',
+    icon: <IcMail width={'20'} height={'20'} />,
   },
   {
     id: 2,
-    datatooltip: 'feedback',
-    tooltiptype: 'left',
-    icon: 'icons',
+    dataTooltip: 'feedback',
+    toolTipType: 'left',
+    icon: <IcFeedback width={'20'} height={'20'} />,
   },
   {
     id: 3,
-    datatooltip: 'top',
-    tooltiptype: 'left',
-    icon: 'icons',
+    dataTooltip: '맨 위로 이동',
+    toolTipType: 'left',
+    icon: <IcTopArrow width={'20'} height={'20'} />,
   },
 ];
